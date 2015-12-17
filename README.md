@@ -21,13 +21,20 @@ This project collects data from the ADXL-335 accelerometer. Arduino processes it
 # connection details
   ADXL335 accelerometer & Arduino nano:
   Vcc --> +5v
+  
   X --> A5
+  
   Y --> A6
+  
   Z --> A7
+  
   Gnd --> gnd
+  
   BT HC05 Tx to software Rx (D11)
+  
   BT HC05 Rx to software Tx (D10)
-  you can change the pind in .h file
+  
+  you can change the pins in .h file
   --------------------------------------------------------------
   you must include the "ArduinoJson" and "SoftwareSerial"
   libraries in arduino's library directory
