@@ -6,17 +6,12 @@ This is a library for Arduino Pedometer project
 this library is compatible with Arduino IDE V 1.6.x and above only!
 
 --------------------------------------------------------------
-This project collects data from the ADXL-335 accelerometer.
-Arduino processes it and calculates the "No. of Steps" taken from the time of power up. the data is encoded in Json string format and sent serially using a BT module HC-05.
+This project collects data from the ADXL-335 accelerometer. Arduino processes it and calculates the "No. of Steps" taken from the time of power up. the data is encoded in Json string format and sent serially using a BT module HC-05.
 --------------------------------------------------------------
-  created on 16 Dec 2015
-  by Abhay Shankar Bharadwaj
-  (abhaysbharadwaj@gmail.com)
-  (facebook.com/abhaysbharadwaja)
+  created on 16 Dec 2015 by Abhay Shankar Bharadwaj
+  (abhaysbharadwaj@gmail.com / facebook.com/abhaysbharadwaja)
 ----------------------------------------------------------------
-  credits go to Benoit Blanchon for the ArduinoJson library
-  and jatinbatra (http://www.instructables.com/member/jatinbatra/)
-  who created the original pedometer code.
+  credits go to Benoit Blanchon for the ArduinoJson library and jatinbatra (http://www.instructables.com/member/jatinbatra/) who created the original pedometer code.
 ----------------------------------------------------------------
   This project code is in the public domain.
   It is given as is, and any modifications can be done
